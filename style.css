@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* Grobal */
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.section-padding{
+    margin: 70px 0px;
+}
+
+/* Header  */
+
+.header-section{
+    width: 100%;
+    padding: 20px 0px 80px;
+    background-color: red;
+}
+
+.header-section .header-left{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+}
+
+.header-section .header-right{
+    width: 60%;
+    float: left;
+}
+.header-section .header-right ul{
+    float: right;
+    text-align: right;
+}
+.header-section .header-right ul li{
+    list-style: none;
+    display: inline;
+}
+.header-section .header-right ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    padding: 0px 30px;
+    font-size: 25px;
+    border-bottom: 2px solid transparent;
+}
+.header-section .header-right ul li a:hover{
+   border-bottom: 2px solid #fff;
+}
+
+/* Banner Section  */
+
+.banner-section{
+    width: 100%;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner{
+    padding: 100px 0px;
+}
+.banner-section .banner-left{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.banner-section .banner-left h1{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: -10px;
+}
+.banner-section .banner-left p{
+    font-size: 18px;
+    color: #ccc;
+}
+.banner-section .banner-left .btn{
+    padding: 20px 30px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+.banner-section .banner-right{
+    width: 50%;
+    float: left;
+}
+
+/* About Section  */
+
+.about-section{
+    width: 100%;
+}
+.about-section h2{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.about-section h3{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.banner-section .banner-left p{
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Footer Section  */
+.footer-section{
+    width: 100%;
+    background: red;
+    padding: 30px 0px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+}
